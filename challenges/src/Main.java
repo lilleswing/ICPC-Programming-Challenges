@@ -21,7 +21,9 @@ class JollyJumper {
     }
 
     private List<Case> parse(final Scanner scanner) {
+        final List<Case> cases = new ArrayList<>();
         final Case aCase = new Case();
+        return cases;
     }
 
     class Case {
