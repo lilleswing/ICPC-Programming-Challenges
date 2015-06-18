@@ -120,6 +120,4 @@ public class Main {
 		//System.out.println(winLoss[0]);
 		return false;
 	}
-
-	
 }

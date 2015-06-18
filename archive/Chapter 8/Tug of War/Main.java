@@ -70,7 +70,7 @@ public class Main {
 			}
 		}
 		ArrayList<Integer> sol = getSol(dp[dp.length-1],goal,sum);
-		
+
 		if (weights.size() % 2 == 1) {
 			ArrayList<Integer> sol2 = getSol(dp[dp.length-2],goal,sum);
 			if(sol2.get(0) > sol.get(0)) {
